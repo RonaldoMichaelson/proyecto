@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Carrito</title>
+</head>
+<body>
+    <h1>Carrito</h1>
+    <div id="productos">
+        <div class="producto">
+            <h3>Hamburguesa</h3>
+            <p>Precio: $10</p>
+            <button onclick="agregarAlCarrito(1)">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <h3>Queso</h3>
+            <p>Precio: $20</p>
+            <button onclick="agregarAlCarrito(2)">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <h3>Lechuga</h3>
+            <p>Precio: $30</p>
+            <button onclick="agregarAlCarrito(3)">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <h3>Pan</h3>
+            <p>Precio: $15</p>
+            <button onclick="agregarAlCarrito(4)">Agregar al carrito</button>
+        </div>
+    </div>
+    <div id="carrito">
+        <h2>Carrito de Compras</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                    <th>Cantidad</th>
+                </tr>
+            </thead>
+            <tbody id="carrito-body"></tbody>
+            <tfoot>
+                <tr>
+                    <td>Total:</td>
+                    <td id="total">$0</td>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+        <button onclick="reiniciarCompras()">Reiniciar Compras</button>
+    </div>
+    <script src="javascript/javascript.js"></script>
+</body>
+</html>
