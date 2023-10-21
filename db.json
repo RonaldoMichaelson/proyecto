@@ -8,6 +8,7 @@
   "profile": {
     "name": "MiNombreDeUsuario"
   },
+  {
   "productos": [
     {
       "id": 1,
@@ -29,5 +30,7 @@
       "nombre": "Pan",
       "precio": 15
     }
-  ]
+  ],
+  "carrito": [],
+  "datosJSONPlaceholder": null
 }
