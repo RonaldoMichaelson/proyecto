@@ -34,5 +34,6 @@
       "nombre": "Producto 5",
       "precio": 30.00
     }
-  ]
+  ],
+  "carrito": []
 }
